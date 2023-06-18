@@ -1,0 +1,15 @@
+.content {
+    display: grid; 
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+header {
+    background-color: yellow;
+}
+
+main { 
+    background-color: red;
+}
