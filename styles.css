@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
- 
+/* CSS Display Grid */ 
 
-  
+.content {
+    min-height: 100vh; 
+    min-height: 100dvh;
+    border: 3px solid blue; 
+    display: grid;
+}
+ 
