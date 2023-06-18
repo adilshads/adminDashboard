@@ -58,7 +58,9 @@ table {
     grid-auto-rows: 200px;
     grid-gap: 10px;
 }
- 
+
+/* Major sections of webpage */
+
 .sidebar {
     display: grid;
     grid-column: 1 / 1;
@@ -66,7 +68,6 @@ table {
     border: 3px solid green; 
     background-color: limegreen;
 }
-
 
 header {
     border: 3px solid red; 
@@ -81,3 +82,6 @@ main {
     border: 3px solid yellow;
     background-color: lightyellow;
 }
+
+/* Subsections of sidebar */
+
