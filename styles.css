@@ -132,7 +132,7 @@ main {
 }
 
 .linkSet1 li {
-    margin-top: 0.65em;
+    margin-top: 0.5em;
 }
 
 .sidebar a {
@@ -141,6 +141,16 @@ main {
     font-family: "Montserrat", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
     font-weight: bold;
+
+    transition: font-size 0.3s;
+}
+
+.sidebar a:hover {
+    font-size: 1.5em; 
+}
+
+.sidebar a:active {
+    font-weight: bolder;
 }
 
 .sidebarLogo img {
@@ -154,4 +164,3 @@ img {
     max-width: 70%;
     height: auto;
 }
-
