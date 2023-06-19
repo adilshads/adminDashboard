@@ -2,11 +2,10 @@
 
 # Credit
 
-![Logo](https://pixabay.com/vectors/logo-tape-design-devoured-plastic-2078018/)
-![Ptra](https://pixabay.com/users/ptra-359668/)
-
 This project includes from the following sources:
 
 - [Eric A. Meyer](https://meyerweb.com/eric/tools/css/reset/): CSS Reset. 
 
 I would like to express our gratitude to the author for their open-source contribution.
+
+Icons used in this project are provided under the MIT license by [Ionicons](https://ionic.io/ionicons). Please refer to their website for more details on licensing and terms of use.
