@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 
@@ -54,18 +55,34 @@
         </nav>
         <header class="header">
 
-            <form>
-                <input type="search" placeholder="Search...">
-                <button type="submit">Search</button>
-            </form>              
+            <form class="search-form">
+                <input type="search" class="search-input" id="searchBar" placeholder="Search...">
+                <button type="submit" class="search-button">
+                  <i class="fas fa-search"></i>
+                </button>
+            </form>
+                       
+            <div class="iconSet3">
+                <img src="img/bookmark-outline.svg" alt="Bookmark Button" id="bookmarkButton">
+                <img src="img/notifications-outline.svg" alt="Notifications Button" id="notificationButton">
+                <img src="img/location-outline.svg" alt="Location Button" id="locationButton">
+            </div>
 
-            <ul class="iconSet3">
-                <li><img src="img/bookmark-outline.svg" alt="Bookmark Button"></li>
-                <li><img src="img/notifications-outline.svg" alt="Notifications Button"></li>
-                <li><img src="img/location-outline.svg" alt="Location Button"></li>
-            </ul>
+            <img src="img/person-outline.svg" alt="Outline of Person" class="profileImg1">
 
-            <img src="img/person-outline.svg" alt="Outline of Person">
+            <img src="img/person-outline.svg" alt="Outline of Person" class="profileImg2">
+            <p>John Doe</p>
+
+            <h1>John Doe (@johnDOE)</h1>
+
+            <div class="inputSection1">
+                <button class="new-button">New</button>
+                <label class="upload-button">
+                    Upload
+                    <input type="file" id="file-input">
+                </label>              
+                <button class="share-button">Share</button>
+            </div>
             
         </header>
         <main class="mainSection">Main section</main>
