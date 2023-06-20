@@ -8,4 +8,6 @@ This project includes from the following sources:
 
 I would like to express our gratitude to the author for their open-source contribution.
 
-Icons used in this project are provided under the MIT license by [Ionicons](https://ionic.io/ionicons). Please refer to their website for more details on licensing and terms of use.
+- Icons used in this project are provided under the MIT license by [Ionicons](https://ionic.io/ionicons). Please refer to their website for more details on licensing and terms of use.
+
+- Icons used in this project are from [Font Awesome](https://fontawesome.com).
