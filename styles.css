@@ -339,6 +339,8 @@ main {
     font-size: 16px;
   }
 
+/* Projects Section */ 
+
 .project-list {
     display: grid;
     gap: 10px;
@@ -351,5 +353,63 @@ main {
   
 .project-description {
     font-style: italic;
+  }
+
+/* Annoucements Section */
+
+.announcements {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+.announcements h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+.announcement {
+    margin-bottom: 20px;
+  }
+  
+.announcement h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.announcement p {
+    font-size: 16px;
+  }
+
+/* Trending Section */ 
+
+.trending {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+.trending h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+.trending-item {
+    margin-bottom: 20px;
+  }
+  
+.trending-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.trending-item p {
+    font-size: 16px;
   }
   
