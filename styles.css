@@ -328,4 +328,28 @@ img {
 .search-input:focus {
     border-color: #8bf0f0;
 }
+
+
+/* Subsections and styling of main section */
+
+main {
+    background-color: #333333;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+  }
+
+.project-list {
+    display: grid;
+    gap: 10px;
+  }
+  
+.project-name {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+.project-description {
+    font-style: italic;
+  }
   
