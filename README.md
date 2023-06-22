@@ -11,3 +11,5 @@ I would like to express our gratitude to the author for their open-source contri
 - Icons used in this project are provided under the MIT license by [Ionicons](https://ionic.io/ionicons). Please refer to their website for more details on licensing and terms of use.
 
 - Icons used in this project are from [Font Awesome](https://fontawesome.com).
+
+- Icons used in this project are from [Cole Bemis](https://feathericons.com/).
