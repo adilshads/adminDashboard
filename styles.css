@@ -401,8 +401,8 @@ main {
 
 .project-description {
     font-style: italic;
-    color: #FFFFFF;
-    background-color: #333333;
+    color: black;
+    background-color: #00FFFF;
     resize: none;
     border-radius: 5px;
     padding: 10px;
