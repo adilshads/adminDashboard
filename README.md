@@ -19,6 +19,10 @@ The Admin Dashboard code has the following dependencies:
 
 - [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css): A library for adding scalable vector icons to the web application.
 
+# Screenshot 
+
+[Admin Dashboard](img/screenshotDashboard.png)
+
 ## Usage
 
 Once the Admin Dashboard is running in a web browser, you can perform the following actions:
