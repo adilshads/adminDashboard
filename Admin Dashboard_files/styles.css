@@ -337,89 +337,31 @@ main {
     color: #fff;
     font-family: 'Courier New', monospace;
     font-size: 16px;
-    display: grid; 
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
   }
 
 /* Projects Section */ 
 
 .project-list {
-  grid-column: 1 / 8;
-  grid-row: 1 / 13;
-  border: 3px solid green;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1em;
-}
-
-.project {
-  background-color: #222222;
-  color: #00FFFF;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-}
-
-.project-name {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.project1 {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-}
-
-.project2 {
-    grid-column: 4 / 7;
-    grid-row: 1 / 2; 
-}
-
-.project3 {
-    grid-column: 1 / 4;
-    grid-row: 2 / 4;
-}
-
-.project4 {
-    grid-column: 4 / 7;
-    grid-row: 2 / 4; 
-}
-
-
-.project5 {
-    grid-column: 1 / 4;
-    grid-row: 4 / 6;
-}
-
-.project6{
-    grid-column: 4 / 7;
-    grid-row: 4 / 6; 
-}
-
-.project-description {
-    font-style: italic;
-    color: #FFFFFF;
-    background-color: #333333;
-    border: 3px solid #00FFFF;
-    resize: none;
-    border-radius: 5px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
+    display: grid;
+    gap: 10px;
   }
   
+.project-name {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+.project-description {
+    font-style: italic;
+  }
 
 /* Annoucements Section */
 
 .announcements {
     background-color: #333333;
     color: #fff;
-    padding: 1em;
-    grid-column: 8 / 13;
-    grid-row: 1 / 7;
-    border: 3px solid green;
+    padding: 20px;
+    border-radius: 8px;
   }
   
 .announcements h2 {
@@ -449,9 +391,6 @@ main {
     color: #fff;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid green;
-    grid-column: 8 / 13;
-    grid-row: 7 / 13;
   }
   
 .trending h2 {
@@ -474,23 +413,3 @@ main {
     font-size: 16px;
   }
   
-
-.svg-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 4px;
-  background-color: #333333;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.svg-button svg {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
-}
