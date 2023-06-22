@@ -347,7 +347,6 @@ main {
 .project-list {
   grid-column: 1 / 8;
   grid-row: 1 / 13;
-  border: 3px solid green;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
@@ -357,10 +356,11 @@ main {
 .project {
   background-color: white;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1em;
+  border-radius: 0.5em;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-  border: 3px solid #00FFFF;
+  border-left: 1em solid #00FFFF;
+  text-decoration: none;
 }
 
 .project-name {
@@ -388,7 +388,6 @@ main {
     grid-row: 2 / 4; 
 }
 
-
 .project5 {
     grid-column: 1 / 4;
     grid-row: 4 / 6;
@@ -409,7 +408,6 @@ main {
     width: 100%;
     box-sizing: border-box;
   }
-  
 
 /* Annoucements Section */
 
