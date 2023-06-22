@@ -355,11 +355,12 @@ main {
 }
 
 .project {
-  background-color: #222222;
-  color: #00FFFF;
+  background-color: white;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  border: 3px solid #00FFFF;
 }
 
 .project-name {
@@ -402,7 +403,6 @@ main {
     font-style: italic;
     color: #FFFFFF;
     background-color: #333333;
-    border: 3px solid #00FFFF;
     resize: none;
     border-radius: 5px;
     padding: 10px;
@@ -474,6 +474,7 @@ main {
     font-size: 16px;
   }
   
+/* Project Buttons */ 
 
 .svg-button {
   display: flex;
@@ -493,4 +494,8 @@ main {
   width: 16px;
   height: 16px;
   fill: currentColor;
+}
+
+.projectButtons {
+    display: flex;
 }
