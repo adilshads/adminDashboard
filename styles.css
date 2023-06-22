@@ -76,7 +76,6 @@ header {
 main {
     grid-column: 2 / -1;
     grid-row: 2 / 5; 
-    border: 3px solid yellow;
 }
 
 /* Subsections of sidebar and styling */
@@ -401,7 +400,7 @@ main {
 .project-description {
     font-style: italic;
     color: black;
-    background-color: #00FFFF;
+    background-color: white;
     resize: none;
     border-radius: 5px;
     padding: 10px;
@@ -412,8 +411,8 @@ main {
 /* Annoucements Section */
 
 .announcements {
-    background-color: #333333;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 1em;
     grid-column: 8 / 13;
     grid-row: 1 / 7;
@@ -421,30 +420,30 @@ main {
   }
   
 .announcements h2 {
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
   }
   
 .announcement {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
   }
   
 .announcement h3 {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
   }
   
 .announcement p {
-    font-size: 16px;
+    font-size: 0.75em;
   }
 
 /* Trending Section */ 
 
 .trending {
-    background-color: #333333;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 8px;
     border: 3px solid green;
