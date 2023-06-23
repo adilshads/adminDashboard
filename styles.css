@@ -52,7 +52,6 @@ table {
 .content {
     min-height: 100vh; 
     min-height: 100dvh;
-    border: 3px solid blue; 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-auto-rows: 200px;
