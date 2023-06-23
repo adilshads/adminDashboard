@@ -23,6 +23,10 @@ The Admin Dashboard code has the following dependencies:
 
 [Admin Dashboard](img/screenshotDashboard.png)
 
+# Technologies Used
+
+HTML, CSS
+
 ## Usage
 
 Once the Admin Dashboard is running in a web browser, you can perform the following actions:
